@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: (1200px,100%);
+    margin-inline: auto;
+    padding: 30px;
+    /* border: solid; */
+}
+header{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        gap: 20px;
+    }
+    .right{
+        display: flex;
+        gap: 10px;
+        a{
+            text-decoration: none;
+        }
+    }
+    
+   
+}
+
+@media(max-width:450px){
+    li{
+        display: none;
+    }
+
+}
